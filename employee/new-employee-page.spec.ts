@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { AddEmployeePage } from '../employee/add-employee.page';
-import { EmployeesPage } from '../employee/employees.page';
-import { Employee } from '../employee/employee';
+import { AddEmployeePage } from './add-employee.page';
+import { EmployeesPage } from './employees.page';
+import { Employee } from './employee';
 
 test.describe('When I am on the add employees page', () => {
     test('Add new employee with all inputs filled', async ({ page, browserName }) => {
