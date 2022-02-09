@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { AddTeamPage } from '../team/add-team.page';
-import { TeamsPage } from '../team/teams.page';
-import { Team } from '../team/team';
+import { AddTeamPage } from './add-team.page';
+import { TeamsPage } from './teams.page';
+import { Team } from './team';
 
 test.describe('When I am on the add teams page', () => {
     test('Add new team with all inputs filled', async ({ page, browserName }) => {
