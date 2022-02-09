@@ -29,4 +29,4 @@ Our test plan regroups manual tests for version 1.0.1 and version 1.0.2 ([link](
 
 Before launching tests, make sure to have all dependencies using ``npm install``.
 
-You can run tests and get the report testing by using this command : ``np run test``
+You can run tests and get the report testing by using this command : ``npm run test``
